@@ -1,21 +1,44 @@
+h1 {
+    font-size: 48pt;
+}
+
 /* ************************* Classes ********************************** */
+
+.hero-section {
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px 10px; */
+}
 
 .current-page {
     color: var(--prussian-blue);
 }
 
 .profile-image-article {
-    min-width: 68%;
-    max-width: 69%;
+    min-width: 100%;
+    /* min-width: 6%;
+    max-width: 69%; */
 }
 
 .profile-image {
     position: relative;
-    min-width: 65%;
-    max-width: 65%;
-    max-height: 100%;
+    width: 45vw;
     margin-top: -200px;
     z-index: -1;
+}
+
+.introduction-text {
+    margin-top: 8%;
+    /* margin-left: -15%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-around;
 }
 
 .keyword {
