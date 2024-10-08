@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    z-index: 1;
     margin: 16px 32px;
     display: flex;
     justify-content: space-between;
