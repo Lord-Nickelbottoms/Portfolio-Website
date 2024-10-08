@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    position: relative;
     z-index: 1;
     margin: 16px 32px;
     display: flex;
@@ -21,6 +22,7 @@ a {
     font-weight: bold;
     cursor: pointer;
     color: var(--vanilla);
+    font-size: 1.1rem
 }
 
 a:hover {
