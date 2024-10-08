@@ -2,3 +2,64 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: var(--prussian-blue);
+    color: var(--vanilla);
+}
+
+header {
+    margin: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--vanilla);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* **************************** Classes ************************* */
+
+.current-page {
+    color: var(--xanthous);
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: default;
+}
+
+.current-page:hover {
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-buttons {
+    padding: 5px 10px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-buttons > li {
+    padding: 0 8px;
+}
+
+.contact-button {
+    margin-left: 24px;
+    padding: 14px 32px;
+    background-color: var(--fire-engine-red);
+    color: var(--prussian-blue);
+    border: none;
+    border-radius: 10px;
+}
