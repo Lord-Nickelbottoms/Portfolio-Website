@@ -45,6 +45,14 @@ h6 {
     color: var(--xanthous);
 }
 
+.hello-message {
+    margin: 20px 0;
+}
+
+.my-name-heading {
+    line-height: 100px;
+}
+
 .portfolio-text {
     font-size: 32pt;
 }
