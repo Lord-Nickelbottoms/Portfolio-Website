@@ -12,27 +12,30 @@ h6 {
     display: grid;
     grid-template-columns: 45% 55%;
     width: 100%;
-    height: 100vh;
-}
-
-.current-page {
-    color: var(--prussian-blue);
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .profile-image-article {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-image {
-    position: relative;
-    width: 100%;
-    z-index: 0;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 50%;
+    border: 10px solid var(--xanthous);
+
+    box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
 }
 
 .introduction-text {
-    margin-top: 8%;
-    /* margin-left: -15%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,10 +43,57 @@ h6 {
     justify-content: space-evenly;
 }
 
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
 .keyword {
     color: var(--xanthous);
 }
 
+.hello-message {
+    margin: 20px 0;
+}
+
+.my-name-heading {
+    line-height: 100px;
+}
+
 .portfolio-text {
     font-size: 32pt;
+}
+
+.down-arrow {
+    width: 10vh;
+}
+
+.quick-fire-intro {
+    font-size: 1.6rem;
+    margin: 80px;
+    text-align: center;
+}
+
+.coding-logo {
+    color: violet;
+}
+
+.swift-logo {
+    color: #E64B22;
+}
+
+.html-logo {
+    color: #f06529;
+}
+
+.css-logo {
+    color: #2965f1;
+}
+
+.js-logo {
+    color: #f0db4f;
+}
+
+.angular-logo {
+    color: #C3002F;
 }

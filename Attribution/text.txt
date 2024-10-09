@@ -1,0 +1,9 @@
+!! NOTE - DELETE THIS FILE AFTER PROJECT HAS CONCLUDED !!
+
+THIS FILE IS TO HOLD ALL ATTRIBUTIONS FOR IMAGES USED THROUGHOUT THE WEBSITE
+
+Arrow Icon
+<a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Freepik - Flaticon</a>
+
+Swift icon
+<a href="https://www.flaticon.com/free-icons/swift" title="swift icons">Swift icons created by Fathema Khanom - Flaticon</a>
