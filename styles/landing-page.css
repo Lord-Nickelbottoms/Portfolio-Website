@@ -15,10 +15,6 @@ h6 {
     height: 100vh;
 }
 
-.current-page {
-    color: var(--prussian-blue);
-}
-
 .profile-image-article {
     height: 100%;
 }
