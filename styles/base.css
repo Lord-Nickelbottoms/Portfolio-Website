@@ -15,16 +15,21 @@ body {
 header {
     position: relative;
     z-index: 1;
-    padding: 8px 32px;
+    padding: 12px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     box-shadow: 0px 5px 19px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 5px 19px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 19px -5px rgba(0,0,0,0.75);
 }
 
 a {
+    color: var(--vanilla);
+}
+
+li > a {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
@@ -32,8 +37,12 @@ a {
     font-size: 1.1rem
 }
 
-a:hover {
+li > a:hover {
     text-decoration: underline;
+}
+
+button > a {
+    text-decoration: none;
 }
 
 button:hover {
