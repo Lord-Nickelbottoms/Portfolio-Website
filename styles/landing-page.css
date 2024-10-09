@@ -36,13 +36,16 @@ h6 {
 }
 
 .introduction-text {
-    margin-top: 8%;
-    /* margin-left: -15%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80vh;
     justify-content: space-evenly;
+}
+
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
 }
 
 .keyword {
