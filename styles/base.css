@@ -33,7 +33,6 @@ li > a {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    color: var(--vanilla);
     font-size: 1.1rem
 }
 
@@ -81,9 +80,15 @@ button:hover {
 
 .contact-button {
     margin-left: 24px;
-    padding: 14px 32px;
+    padding: 12px 16px;
     background-color: var(--fire-engine-red);
-    color: var(--prussian-blue);
+    color: var(--vanilla);
     border: none;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: var(--fire-engine-red-75);
+    color: var(--vanilla);
 }
