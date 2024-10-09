@@ -1,3 +1,9 @@
+@import url("/styles/fonts.css");
+
+main {
+    margin: 40px;
+}
+
 h1 {
     font-size: 48pt;
 }
@@ -41,11 +47,6 @@ h6 {
     align-items: center;
     height: 80vh;
     justify-content: space-evenly;
-}
-
-.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
-@keyframes hu__hu__ {
-    50% { transform: translateY(30px) }
 }
 
 .keyword {
@@ -96,4 +97,31 @@ h6 {
 
 .angular-logo {
     color: #C3002F;
+}
+
+.to-projects-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.highlights-text {
+    margin-right: 15px;
+}
+
+.to-projects-btn {
+    font-size: 1.1rem;
+    padding: 8px 14px;
+    color: var(--prussian-blue);
+    background-color: var(--vanilla);
+    border: none;
+    border-radius: 10px;
+}
+
+.to-projects-btn:hover {
+    background-color: transparent;
+    color: var(--vanilla);
+    border: 1px solid var(--vanilla);
+    font-weight: 700;
 }

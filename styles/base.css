@@ -1,6 +1,10 @@
+@import url("/styles/fonts.css");
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Kalam';
+    transition: 0.2s;
 }
 
 body {
@@ -11,7 +15,7 @@ body {
 header {
     position: relative;
     z-index: 1;
-    padding: 16px 32px;
+    padding: 8px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +34,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 
