@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Kalam';
     transition: 0.2s;
+    box-sizing: border-box;
 }
 
 body {
