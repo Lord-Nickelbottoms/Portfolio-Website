@@ -27,7 +27,7 @@
   .container {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
+    background-color: var(--fire-engine-red-75);
     width: 50%;
   }
   
@@ -38,7 +38,7 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: ;
+    /* background-color: ; */
     border: 4px solid #FF9F55;
     top: 15px;
     border-radius: 50%;
@@ -91,7 +91,37 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    /* background-color: var(--fire-engine-red-75); */
     position: relative;
     border-radius: 6px;
+  }
+
+  .projects-gallery {
+    background-color: blueviolet;
+    color: white;
+    max-width: 85%;
+    height: 100vh;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+  }
+
+  .project-window {
+    background-color: var(--fire-engine-red-75);
+    color: var(--vanilla);
+  }
+
+  .s-connector-row {
+    display: inline-block;
+    /* grid-area: 2 / 1 / 2 / 4; */
+    grid-area: span 1 / span 3;
+    background-color: red;
+  }
+
+  .large-project-window {
+    display: flex;
+    grid-area: span 2 / span 3;
+    background-color: green;
   }
