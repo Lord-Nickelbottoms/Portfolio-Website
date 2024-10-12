@@ -122,6 +122,7 @@
   .s-connector-row {
     display: inline-block;
     grid-area: span 1 / span 3;
+    min-height: 90px;
   }
 
   .large-project-window {
