@@ -93,3 +93,33 @@ button:hover {
     background-color: var(--fire-engine-red-75);
     color: var(--vanilla);
 }
+
+.coding-logo
+{
+    color: violet;
+}
+
+.swift-logo
+{
+    color: #E64B22;
+}
+
+.html-logo
+{
+    color: #f06529;
+}
+
+.css-logo
+{
+    color: #2965f1;
+}
+
+.js-logo
+{
+    color: #f0db4f;
+}
+
+.angular-logo
+{
+    color: #C3002F;
+}
