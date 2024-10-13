@@ -117,6 +117,32 @@
     padding: 1rem 2rem;
     border-radius: 15px;
   }
+  
+  .project-name {
+    font-size: 1.9rem;
+  }
+  
+  .tech-stack {
+    font-size: 1.3rem;
+  }
+  
+  .project-description {
+    font-size: 1.3rem;
+  }
+  
+  .view-project-button {
+    padding: 10px 12px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--vanilla);
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .view-project-button:hover, .view-project-button > a:hover {
+    background-color: var(--vanilla);
+    color: var(--prussian-blue);
+  }
 
   .s-connector-row {
     display: inline-block;
