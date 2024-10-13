@@ -108,7 +108,7 @@
   }
 
   .project-window {
-    background-color: var(--fire-engine-red-75);
+    background-color: var(--fire-engine-red-50);
     color: var(--vanilla);
     display: flex;
     flex-direction: column;
