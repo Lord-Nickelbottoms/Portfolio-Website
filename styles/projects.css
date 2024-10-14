@@ -156,3 +156,9 @@
     grid-area: span 2 / span 3;
     height: 400px;
   }
+
+  .dual-large-project-window {
+    grid-area: span 2/ span 3;
+    display: flex;
+    flex-direction: row;
+  }
