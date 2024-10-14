@@ -159,7 +159,7 @@
 
   .dual-large-project-window {
     grid-area: span 2/ span 3;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
   }
 
@@ -167,31 +167,33 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
     column-gap: 10px;
+    row-gap: 10px;
   }
   /* _Surveys images */
 
   .surveys-image-1 {
     background-image: url("/images/Project-Media/Home_Screen_Empty.png");
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
   }
 
   .surveys-image-2 {
     background-image: url("/images/Project-Media/Adding-data.png");
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
   }
 
   .surveys-image-3 {
     background-image: url("/images/Project-Media/Survey-results-screen.png");
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
   }
 
   .surveys-image-4 {
     background-image: url("/images/Project-Media/Survey_Results-Empty.png");
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
   }
