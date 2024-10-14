@@ -162,3 +162,36 @@
     display: flex;
     flex-direction: row;
   }
+
+  .dual-large-project-gallery {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  /* _Surveys images */
+
+  .surveys-image-1 {
+    background-image: url("/images/Project-Media/Home_Screen_Empty.png");
+    background-repeat: none;
+    background-size: contain;
+  }
+
+  .surveys-image-2 {
+    background-image: url("/images/Project-Media/Adding-data.png");
+    background-repeat: none;
+    background-size: contain;
+  }
+
+  .surveys-image-3 {
+    background-image: url("/images/Project-Media/Survey-results-screen.png");
+    background-repeat: none;
+    background-size: contain;
+  }
+
+  .surveys-image-4 {
+    background-image: url("/images/Project-Media/Survey_Results-Empty.png");
+    background-repeat: none;
+    background-size: contain;
+  }
