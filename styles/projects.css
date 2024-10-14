@@ -104,7 +104,8 @@
     margin: 50px auto;
 
     display: grid;
-    grid-template-columns: repeat(auto, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
+    
   }
 
   .project-window {
@@ -119,7 +120,7 @@
   }
   
   .project-name {
-    font-size: 1.9rem;
+    font-size: max(min(1.9rem, 1.9vw), 2.4rem);
   }
   
   .tech-stack {
