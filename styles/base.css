@@ -131,3 +131,55 @@ button:hover {
 .android-logo {
     color: #3DDC84;
 }
+
+/* IDs */
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ******************** Media Queries *********************** */
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--orange-wheel-75);
+        
+    }
+    
+    header #nav-links, #contact-button {
+        display: none;
+    }
+    
+    .nav-bar a {
+        color: var(--prussian-blue);
+        padding: 14pt 16pt;
+        text-decoration: none;
+        font-size: 1.2rem;
+        display: flex;
+        z-index: 2;
+    }
+    
+    .nav-bar a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .nav-bar a:hover {
+        background-color: var(--prussian-blue);
+        color: var(--vanilla);
+        text-decoration: none;
+    }
+    
+    .current-page {
+        color: var(--prussian-blue);
+    }
+    
+    main {
+        width: 95%;
+    }
+}
