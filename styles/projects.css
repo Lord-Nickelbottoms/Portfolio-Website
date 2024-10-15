@@ -166,6 +166,10 @@
 
   .large-project-information {
     width: 50%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .dual-large-project-gallery {
