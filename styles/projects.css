@@ -105,6 +105,7 @@
 
     display: grid;
     column-gap: 20pt;
+    align-items: baseline;
     /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
     
   }
@@ -126,7 +127,7 @@
   }
   
   .tech-stack {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   
   .project-description {
