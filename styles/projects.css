@@ -104,6 +104,7 @@
     margin: 50px auto;
 
     display: grid;
+    column-gap: 20pt;
     /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
     
   }
@@ -155,7 +156,6 @@
   .large-project-window {
     display: flex;
     grid-area: span 2 / span 3;
-    height: 400px;
   }
 
   .dual-large-project-window {
@@ -175,8 +175,9 @@
 
   .dual-large-project-gallery {
     width: 50%;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 300px)); */
     align-items: center;
     justify-items: center;
   }
