@@ -17,6 +17,20 @@
 	box-shadow: -2px 3px 8px 0px black;
 }
 
+.dual-about-me-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin: 7vh 0;
+	padding: 30px;
+}
+
+.half-content-block {
+	border-radius: 15px;
+	box-shadow: -2px 3px 8px 0px black;
+}
+
 .about-me-heading {
 	font-size: max(2.5rem);
 	font-weight: 700;
@@ -36,11 +50,13 @@
 .skill-showcaser {
 	margin: 30px 40px;
 	width: 40%;
-	background-color: brown;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .skill-showcaser > img {
-	max-height: 250px;
+	max-height: 400px;
 }
 
 .skills-display {
