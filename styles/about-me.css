@@ -4,36 +4,59 @@
 
 /* *********** Classes ********** */
 
-.ancestral-container {
+.ancestral-container
+{
 	max-width: 1100px;
 	min-width: 85%;
 	margin: 5vw auto;
 }
 
-.content-block {
+.content-block
+{
 	margin: 7vh 0;
 	padding: 30px;
 	border-radius: 15px;
 	box-shadow: -2px 3px 8px 0px black;
 }
 
-.about-me-heading {
+.about-me-heading
+{
 	font-size: max(2.5rem);
 	font-weight: 700;
 }
 
-.about-me-description {
+.about-me-description
+{
 	font-size: max(1.4rem);
 	padding: 20px 0;
 }
 
-.skills-section {
+.download-button
+{
+	background-color: var(--orange-wheel);
+	color: var(--prussian-blue);
+	padding: 10px 14px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 15px;
+}
+
+.download-button:hover
+{
+	color: var(--vanilla);
+	background-color: var(--prussian-blue);
+	border: 1px solid var(--vanilla);
+}
+
+.skills-section
+{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 
-.skill-showcaser {
+.skill-showcaser
+{
 	margin: 30px 40px;
 	width: 40%;
 	display: flex;
@@ -41,27 +64,32 @@
 	justify-content: center;
 }
 
-.skill-showcaser > img {
+.skill-showcaser > img
+{
 	max-height: 400px;
 }
 
-.skills-display {
+.skills-display
+{
 	margin: 30px 40px;
 	width: 100%;
 }
 
-.skill-item-container {
+.skill-item-container
+{
 	margin-bottom: 25px;
 }
 
-.progress-bar-container {
+.progress-bar-container
+{
 	width: 100%;
 	margin-top: 10px;
 	background-color: var(--vanilla);
 	border-radius: 20px;
 }
 
-.skills {
+.skills
+{
 	text-align: right;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -69,52 +97,62 @@
 	border-radius: 20px 30px 30px 20px;
 }
 
-.rating {
+.rating
+{
 	margin-right: 10px;
 }
 
-.swift {
+.swift
+{
 	width: 60%;
 	background-color: #E64B22;
 }
 
-.web-dev {
+.web-dev
+{
 	width: 40%;
 	background-color: #f06529;
 }
 
-.javascript {
+.javascript
+{
 	width: 20%;
 	background-color: #f0db4f;
 }
 
-.soft-skills {
+.soft-skills
+{
 	width: 80%;
 	background-color: #3DDC84;
 }
 
-.tech-skills {
+.tech-skills
+{
 	width: 90%;
 	background-color: #C3002F;
 }
 
-.dual-about-me-section {
+.dual-about-me-section
+{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	padding: 10px 30px;
 }
 
-.half-content-block {
+.half-content-block
+{
 	border-radius: 15px;
 	box-shadow: -2px 3px 8px 0px black;
 }
 
-.list-item {
+.list-item
+{
 	margin-bottom: 15px;
 }
 
-.experience-title {
+.experience-title
+{
 	font-size: 1.3rem;
 	font-weight: 700;
 	color: var(--xanthous);
