@@ -46,5 +46,52 @@
 .skills-display {
 	margin: 30px 40px;
 	width: 100%;
-	background-color: tan;
+}
+
+.skill-item-container {
+	margin-bottom: 25px;
+}
+
+.progress-bar-container {
+	width: 100%;
+	margin-top: 10px;
+	background-color: var(--vanilla);
+	border-radius: 20px;
+}
+
+.skills {
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: black;
+	border-radius: 20px 30px 30px 20px;
+}
+
+.rating {
+	margin-right: 10px;
+}
+
+.swift {
+	width: 60%;
+	background-color: #E64B22;
+}
+
+.web-dev {
+	width: 40%;
+	background-color: #f06529;
+}
+
+.javascript {
+	width: 20%;
+	background-color: #f0db4f;
+}
+
+.soft-skills {
+	width: 80%;
+	background-color: #3DDC84;
+}
+
+.tech-skills {
+	width: 90%;
+	background-color: #C3002F;
 }
