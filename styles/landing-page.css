@@ -49,10 +49,6 @@ h6 {
     justify-content: space-evenly;
 }
 
-.keyword {
-    color: var(--xanthous);
-}
-
 .hello-message {
     margin: 20px 0;
 }
