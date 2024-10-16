@@ -8,3 +8,20 @@
 	width: 90%;
 	margin: 5vw auto;
 }
+
+.content-block {
+	margin: 7vh 0;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: -2px 3px 8px 0px black;
+}
+
+.about-me-heading {
+	font-size: max(2.5rem);
+	font-weight: 700;
+}
+
+.about-me-description {
+	font-size: max(1.4rem);
+	padding: 20px 0;
+}
