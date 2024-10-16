@@ -5,7 +5,8 @@
 /* *********** Classes ********** */
 
 .ancestral-container {
-	width: 95%;
+	max-width: 1100px;
+	min-width: 85%;
 	margin: 5vw auto;
 }
 
@@ -24,4 +25,26 @@
 .about-me-description {
 	font-size: max(1.4rem);
 	padding: 20px 0;
+}
+
+.skills-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.skill-showcaser {
+	margin: 30px 40px;
+	width: 40%;
+	background-color: brown;
+}
+
+.skill-showcaser > img {
+	max-height: 250px;
+}
+
+.skills-display {
+	margin: 30px 40px;
+	width: 100%;
+	background-color: tan;
 }
