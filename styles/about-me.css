@@ -111,3 +111,7 @@
 	border-radius: 15px;
 	box-shadow: -2px 3px 8px 0px black;
 }
+
+.list-item {
+	margin-bottom: 15px;
+}
