@@ -52,6 +52,10 @@ button:hover {
 
 /* **************************** Classes ************************* */
 
+.keyword {
+    color: var(--xanthous);
+}
+
 .current-page {
     color: var(--xanthous);
     opacity: 0.7;
