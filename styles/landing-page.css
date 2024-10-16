@@ -75,30 +75,6 @@ h6 {
     text-align: center;
 }
 
-.coding-logo {
-    color: violet;
-}
-
-.swift-logo {
-    color: #E64B22;
-}
-
-.html-logo {
-    color: #f06529;
-}
-
-.css-logo {
-    color: #2965f1;
-}
-
-.js-logo {
-    color: #f0db4f;
-}
-
-.angular-logo {
-    color: #C3002F;
-}
-
 .to-projects-section {
     display: flex;
     align-items: center;
