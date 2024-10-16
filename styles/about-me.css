@@ -103,7 +103,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 
-	margin: 7vh 0;
+	margin: 1% 0;
 	padding: 30px;
 }
 
@@ -114,4 +114,10 @@
 
 .list-item {
 	margin-bottom: 15px;
+}
+
+.experience-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: var(--xanthous);
 }
