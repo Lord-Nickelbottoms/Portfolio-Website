@@ -17,4 +17,4 @@ Download the Live Server extension and click "Go Live"
 
 ## Authors
 
-![@Lord-Nickelbottoms](https://www.github.com/Lord-Nickelbottoms)
+[@Lord-Nickelbottoms](https://www.github.com/Lord-Nickelbottoms)
