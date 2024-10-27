@@ -22,19 +22,27 @@
 
 <body>
 
-    <header>
+    <header class="top-nav">
 
-        <p>Lord-Nickelbottoms</p>
+        <p class="logo">Lord-Nickelbottoms</p>
 
         <nav class="nav-bar">
-            <div class="nav-buttons">
+            <div class="nav-buttons" id="nav-buttons">
+
                 <a href="index.html">HOME</a>
                 <a href="projects.html">PROJECTS</a>
                 <span class="current-page">ABOUT ME</span>
+                <button type="button" class="contact-button" id="mobile-contact-button"><a
+                        href="#socials-section">CONTACT</a></button>
             </div>
         </nav>
 
-        <button type="button" class="contact-button"><a href="#socials-section">CONTACT</a></button>
+        <a href="javascript:void(0);" class="icon" onclick="showHamburgerMenu();">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <button type="button" class="contact-button" id="computer-contact-button"><a
+                href="#socials-section">CONTACT</a></button>
 
     </header>
 
@@ -226,6 +234,7 @@
     </footer>
 
     <script src="scripts/about-me.js"></script>
+    <script src="scripts/nav-bar.js"></script>
 </body>
 
 </html>

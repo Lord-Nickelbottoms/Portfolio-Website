@@ -6,34 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nizaam's Home</title>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/colors.css">
-    <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="styles/landing-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+    <header class="top-nav">
 
-        <p>Lord-Nickelbottoms</p>
+        <p class="logo">Lord-Nickelbottoms</p>
 
         <nav class="nav-bar">
-            <div class="nav-buttons">
+            <div class="nav-buttons" id="nav-buttons">
+
                 <span class="current-page">HOME</span>
                 <a href="projects.html">PROJECTS</a>
                 <a href="about-me.html">ABOUT ME</a>
+                <button type="button" class="contact-button" id="mobile-contact-button"><a
+                        href="#socials-section">CONTACT</a></button>
             </div>
         </nav>
 
-        <button type="button" class="contact-button"><a href="#socials-section">CONTACT</a></button>
+        <a href="javascript:void(0);" class="icon" onclick="showHamburgerMenu();">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <button type="button" class="contact-button" id="computer-contact-button"><a
+                href="#socials-section">CONTACT</a></button>
 
     </header>
 
@@ -113,6 +114,8 @@
 
         </div>
     </footer>
+
+    <script src="scripts/nav-bar.js"></script>
 
 </body>
 
