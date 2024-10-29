@@ -1,19 +1,42 @@
-window.addEventListener("load", () => {
-    console.log("Doc loaded...");
-    newChat();
-})
+// var and const
 
-const chatbotContainer = document.getElementById("chatbot-container");
+const chatbotContainer = document.getElementById("chatbot-container")
+const container = document.getElementById("chat-flex-container")
 
 const interactions = [
     { question: "What are you?", answer: "Experiment 626."},
-    { question: "What is your purpose?", answer: "Invalid input. Please try again." },
-    { question: "Status Error", answer: "System logs recorded." }
+    { question: "What is your purpose?", answer: "ʻOhana" },
+    { question: "Status Error", answer: "System logs recorded." },
+    { question: "We've got a job to do.", answer: ";)"}
 ]
 
-let restart = false;
+const chatButton = document.getElementById("chatbot-icon")
 
-let userChoice = "";
+
+let restart = false
+
+let userChoice = ""
+
+
+// functions
+
+window.addEventListener("load", () => {
+    console.log("Doc loaded...")
+    newChat()
+})
+
+
+// only for static UI elements that don't get a listener attached dynamically
+chatButton.addEventListener('click', openChat())
+
+
+function openChat() {
+        if (container.style.display === "none") {
+            container.style.display = "block"
+        } else {
+            container.style.display = "none"
+        }
+}
 
 async function newChat() {
     
@@ -56,7 +79,7 @@ function displayQuestions(chosenQuestion, response) {
     chatbotText.scrollIntoView({ behavior: "smooth" });
 }
 
-function newUserMessage(clickedMessage) {
+async function newUserMessage(clickedMessage) {
     const userMessageContainer = document.createElement("div");
     userMessageContainer.classList.add("user-message");
 
@@ -72,12 +95,24 @@ function newUserMessage(clickedMessage) {
     const userText = document.createElement("p");
     userText.textContent = clickedMessage;
     userMessageContent.appendChild(userText);
+    
 
     if (clickedMessage === "System logs recorded.") {
         restartChat()
+    } else if (clickedMessage === ";)") {
+        delay(1500)
+        routeToContact()
+
+        delay(1000)
+        openChat()
     }
 
     userText.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
+}
+
+function routeToContact() {
+    const contactElement = document.getElementById("contact")
+    contactElement.scrollIntoView( { behavior: "smooth", block: "start", inline: "center" } )
 }
 
 function restartChat() {
@@ -87,8 +122,7 @@ function restartChat() {
     }
 }
 
-function closeChat() {
-    const container = document.getElementById("container")
+function endChat() {
     container.style.display = "none"
 }
 
