@@ -529,7 +529,7 @@ button:hover
     flex-direction: column;
   }
   
-  .chatbot-message {
+  .user-message {
     width: 100%;
   }
   
@@ -539,25 +539,25 @@ button:hover
     border-radius: 15px;
   }
   
-  .chatbot-message-content {
+  .user-message-content {
     background-color: var(--orange-wheel);
     color: var(--prussian-blue);
     margin-bottom: 10px;
     cursor: pointer;
   }
   
-  .chatbot-message-content:hover {
+  .user-message-content:hover {
     background-color: var(--vanilla);
     cursor: help;
   }
   
-  .user-message {
+  .chatbot-message {
     width: 100%;
     text-align: end;
     padding-right: 10px;
   }
   
-  .user-message-content {
+  .chatbot-message-content {
     background-color: var(--fire-engine-red);
     color: var(--vanilla);
     margin-left: auto;
