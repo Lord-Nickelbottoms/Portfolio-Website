@@ -44,6 +44,10 @@ async function newChat() {
         await delay(2000)
     }
 
+    const menuLabel = document.createElement("p")
+    menuLabel.textContent = "Menu"
+    chatbotContainer.append(menuLabel)
+
     interactions.forEach( item => {
         restart = false
 
