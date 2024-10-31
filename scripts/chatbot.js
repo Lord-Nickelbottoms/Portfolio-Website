@@ -7,7 +7,7 @@ const interactions = [
     { question: "What are you?", answer: "Experiment 626."},
     { question: "What is your purpose?", answer: "ʻOhana" },
     { question: "Status Error", answer: "System logs recorded." },
-    { question: "We've got a job to do.", answer: ";)"}
+    { question: "We've got a job to do.", answer: "😉"}
 ]
 
 const chatButton = document.getElementById("chatbot-icon")
