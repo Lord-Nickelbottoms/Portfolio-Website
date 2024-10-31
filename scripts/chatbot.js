@@ -77,7 +77,6 @@ function displayQuestions(chosenQuestion, response) {
 
     // OnClick functionality
     chatbotMessageContainer.addEventListener("click", () => {
-        console.log(`${response} tapped`);
         newChatbotMessage(response)
     })
 
@@ -85,17 +84,21 @@ function displayQuestions(chosenQuestion, response) {
 }
 
 async function newChatbotMessage(chatbotResponse) {
-    const userMessageContainer = document.createElement("div");
-    userMessageContainer.classList.add("chatbot-message");
+    const chatbotMessageContainer = document.createElement("div");
+    chatbotMessageContainer.classList.add("chatbot-message");
 
-    chatbotContainer.appendChild(userMessageContainer);
+    chatbotContainer.appendChild(chatbotMessageContainer);
+
+    const supportLabel = document.createElement("p")
+    supportLabel.textContent = "Support"
+    chatbotMessageContainer.append(supportLabel)
 
     const userMessageContent = document.createElement("div");
     userMessageContent.classList.add("message-content");
     userMessageContent.classList.add("chatbot-message-content");
 
 
-    userMessageContainer.appendChild(userMessageContent);
+    chatbotMessageContainer.appendChild(userMessageContent);
 
     const userText = document.createElement("p");
     userText.textContent = chatbotResponse;
