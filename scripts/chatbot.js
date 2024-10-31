@@ -56,14 +56,15 @@ async function newChat() {
 }
 
 function displayQuestions(chosenQuestion, response) {
+
     const chatbotMessageContainer = document.createElement("div");
-    chatbotMessageContainer.classList.add("chatbot-message");
+    chatbotMessageContainer.classList.add("user-message");
 
     chatbotContainer.appendChild(chatbotMessageContainer);
 
     const chatbotMessageContent = document.createElement("div");
     chatbotMessageContent.classList.add("message-content");
-    chatbotMessageContent.classList.add("chatbot-message-content");
+    chatbotMessageContent.classList.add("user-message-content");
 
 
     chatbotMessageContainer.appendChild(chatbotMessageContent);
@@ -77,33 +78,33 @@ function displayQuestions(chosenQuestion, response) {
     // OnClick functionality
     chatbotMessageContainer.addEventListener("click", () => {
         console.log(`${response} tapped`);
-        newUserMessage(response)
+        newChatbotMessage(response)
     })
 
     chatbotText.scrollIntoView({ behavior: "smooth" });
 }
 
-async function newUserMessage(clickedMessage) {
+async function newChatbotMessage(chatbotResponse) {
     const userMessageContainer = document.createElement("div");
-    userMessageContainer.classList.add("user-message");
+    userMessageContainer.classList.add("chatbot-message");
 
     chatbotContainer.appendChild(userMessageContainer);
 
     const userMessageContent = document.createElement("div");
     userMessageContent.classList.add("message-content");
-    userMessageContent.classList.add("user-message-content");
+    userMessageContent.classList.add("chatbot-message-content");
 
 
     userMessageContainer.appendChild(userMessageContent);
 
     const userText = document.createElement("p");
-    userText.textContent = clickedMessage;
+    userText.textContent = chatbotResponse;
     userMessageContent.appendChild(userText);
     
 
-    if (clickedMessage === "System logs recorded.") {
+    if (chatbotResponse === "System logs recorded.") {
         restartChat()
-    } else if (clickedMessage === ";)") {
+    } else if (chatbotResponse === "😉") {
         delay(1500)
         routeToContact()
 
