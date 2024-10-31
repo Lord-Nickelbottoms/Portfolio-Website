@@ -569,6 +569,19 @@ button:hover
     scroll-margin: 10px;
   }
 
+  .restart-button {
+    background-color: var(--prussian-blue-75);
+    color: var(--xanthous);
+    border: 2px solid var(--xanthous);
+    padding: 5px 8px;
+    border-radius: 15px;
+  }
+
+  .restart-button:hover {
+    background-color: var(--xanthous);
+    color: var(--prussian-blue);
+    border: 2px solid var(--xanthous);
+  }
 
   /* *********************************** Scrollbar *************************** */
 
