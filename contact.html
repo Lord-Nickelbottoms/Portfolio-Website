@@ -36,7 +36,33 @@
 
     <main>
 
-        <h1 class="main-header">Get in touch with me</h1>
+        <hgroup>
+            <h1 class="main-header">Contact Me</h1>
+
+            <p>Found something you like or just want to get to know me more? Scribble in some details below to get in touch with me</p>
+        </hgroup>
+
+        <form action="" class="contact-form" id="contact-form">
+
+            <div class="text-field-section">
+                <label for="firstName">First Name: </label>
+                <input type="text" name="firstName" id="firstName" required aria-required="true">
+            </div>
+
+            <div class="text-field-section">
+                <label for="lastName">Last Name: </label>
+                <input type="text" name="lastName" id="lastName" required aria-required="true">
+            </div>
+
+            <div class="drop-down-section">
+                <label for="contact-reason-drop-down">Contact Reason:</label>
+                <select name="contact-reason-drop-down" id="contact-reason-drop-down">
+
+                    <option value="casualConversation">Casual Conversation</option>
+                </select>
+            </div>
+
+        </form>
 
     </main>
 
