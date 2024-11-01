@@ -1,1 +1,47 @@
+main {
+    max-width: 90%;
+}
+
 /* **************** Classes ********************** */
+
+.main-header {
+    font-size: 1.8rem;
+}
+
+.contact-form {
+    display: grid;
+    padding: 30px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.text-field-section {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+
+    hgroup {
+        padding: 20px 10px;
+    }
+
+    .main-header {
+        font-size: 1.6rem;
+    }
+
+    .contact-form {
+        width: 100%;
+        background-color: var(--prussian-blue-75);
+        display: grid;
+        padding: 10px 30px 15px 30px;
+        border: 2px solid var(--vanilla);
+        border-radius: 15px;
+        box-shadow: 5px 5px 2px black;
+    }
+
+    .text-field-section {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 4px;
+    }
+}
