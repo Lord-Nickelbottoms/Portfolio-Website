@@ -41,7 +41,7 @@ function openChat() {
 async function newChat() {
     
     if (restart) {
-        await delay(2000)
+        await delay(1000)
     }
 
     const menuLabel = document.createElement("p")
@@ -100,26 +100,23 @@ async function newChatbotMessage(chatbotResponse) {
 
     chatbotMessageContainer.appendChild(userMessageContent);
 
-    const userText = document.createElement("p");
-    userText.textContent = chatbotResponse;
-    userMessageContent.appendChild(userText);
+    const chatbotText = document.createElement("p");
+    chatbotText.textContent = chatbotResponse;
+    userMessageContent.appendChild(chatbotText);
     
 
-    if (chatbotResponse === "System logs recorded.") {
-        restartChat()
-    } else if (chatbotResponse === "😉") {
-        delay(1500)
-        routeToContact()
-
+    if (chatbotResponse === "😉") {
         delay(1000)
-        openChat()
+        routeToContact()
+    } else {
+        restartChat()
     }
 
-    userText.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
+    chatbotText.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
 }
 
 function routeToContact() {
-    const contactElement = document.getElementById("contact")
+    const contactElement = document.getElementById("socials-section")
     contactElement.scrollIntoView( { behavior: "smooth", block: "start", inline: "center" } )
 }
 
