@@ -32,7 +32,7 @@ chatButton.addEventListener('click', openChat())
 
 function openChat() {
         if (container.style.display === "none") {
-            container.style.display = "block"
+            container.style.display = "flex"
         } else {
             container.style.display = "none"
         }
