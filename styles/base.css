@@ -267,7 +267,7 @@ a.icon
         width: 100%;
     }
 
-    .top-nav #nav-buttons
+    .top-nav
     {
         display: flex;
     }
@@ -290,6 +290,7 @@ a.icon
 
     .nav-buttons
     {
+        display: none;
         flex-direction: column;
         justify-content: flex-start;
     }

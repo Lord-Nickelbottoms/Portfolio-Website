@@ -1,11 +1,13 @@
 function showHamburgerMenu ()
 {
-	let hamburgerMenu = document.getElementById( "nav-buttons" )
-	if ( hamburgerMenu.style.display === "none" )
+	const hamburgerMenu = document.getElementById( "nav-buttons" )
+	if ( hamburgerMenu.style.display === "flex" )
 	{
-		hamburgerMenu.style.display = "flex"
+		document.getElementById( "logo" ).style.display = "block"
+		hamburgerMenu.style.display = "none"
 	} else
 	{
-		hamburgerMenu.style.display = "none"
+		hamburgerMenu.style.display = "flex"
+		document.getElementById( "logo" ).style.display = "none"
 	}
 }
