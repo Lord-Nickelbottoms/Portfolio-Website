@@ -250,8 +250,6 @@ a.icon
 
 @media screen and (max-width: 550px)
 {
-
-    /*  */
     main
     {
         display: flex;
@@ -285,7 +283,6 @@ a.icon
     {
         flex-grow: 2;
         width: 100%;
-        /* padding: 30px 40px; */
     }
 
     .nav-buttons
