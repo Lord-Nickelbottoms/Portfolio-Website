@@ -11,9 +11,6 @@
   margin: 50px auto;
 
   display: block;
-  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  /* align-items: baseline; */
-  /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
 }
 
@@ -243,7 +240,6 @@
     display: grid;
     column-gap: 20pt;
     align-items: baseline;
-    /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
   }
 
