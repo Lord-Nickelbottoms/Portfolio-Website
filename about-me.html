@@ -14,27 +14,35 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+    <header class="top-nav">
 
-        <p>Lord-Nickelbottoms</p>
+        <p class="logo" id="logo">Lord-Nickelbottoms</p>
 
         <nav class="nav-bar">
-            <ul class="nav-buttons">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a class="current-page">ABOUT ME</a></li>
-            </ul>
+            <div class="nav-buttons" id="nav-buttons">
+
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <span class="current-page">ABOUT ME</span>
+                <button type="button" class="contact-button" id="mobile-contact-button"><a
+                        href="#socials-section">CONTACT</a></button>
+            </div>
         </nav>
 
-        <button type="button" class="contact-button"><a href="#socials-section">CONTACT</a></button>
+        <a href="javascript:void(0);" class="icon" onclick="showHamburgerMenu();">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <button type="button" class="contact-button" id="computer-contact-button"><a
+                href="#socials-section">CONTACT</a></button>
 
     </header>
 
@@ -191,22 +199,22 @@
 
     </main>
 
-    
-<!-- Chatbot -->
+
+    <!-- Chatbot -->
 
     <!-- Container will display the button to display chatbot window-->
     <div class="chatbot-main-container">
 
         <div class="chatbot-icon" id="chatbot-icon" onclick="openChat()"></div>
-  
+
         <!-- Container to be hidden or displayed -->
         <div class="chat-flex-container" id="chat-flex-container">
-  
-          <div class="container">
-  
-            <!-- TODO: To be removed. Content will be dynamically added via JavaScript -->
-            <div class="chatbot-container" id="chatbot-container">
-              <!-- <div class="user-message">
+
+            <div class="container">
+
+                <!-- TODO: To be removed. Content will be dynamically added via JavaScript -->
+                <div class="chatbot-container" id="chatbot-container">
+                    <!-- <div class="user-message">
                 <div class="message-content user-message-content">
                   <p class="chatbot-text">Welcome, I am a chatbot here to help you :)</p>
                 </div>
@@ -217,16 +225,16 @@
                   <p>Hello</p>
                 </div>
               </div> -->
+                </div>
+
             </div>
-            
-          </div>
-  
-          <div class="chatbot-action-section">
-            <button type="button" onclick="restartChat()" class="restart-button">Restart interaction</button>
-          </div>
+
+            <div class="chatbot-action-section">
+                <button type="button" onclick="restartChat()" class="restart-button">Restart interaction</button>
+            </div>
         </div>
-  
-      </div>
+
+    </div>
 
     <footer class="footer">
 
@@ -234,9 +242,11 @@
             <a href="https://www.linkedin.com/in/nizaam-haffejee-4299a71ba" class="linkedin"><i
                     class="fa-brands fa-linkedin-in"></i> Nizaam Haffejee</a>
 
-            <a href="https://github.com/Lord-Nickelbottoms/" class="github"><i class="fa-brands fa-github"></i> Lord-Nickelbottoms</a>
+            <a href="https://github.com/Lord-Nickelbottoms/" class="github"><i class="fa-brands fa-github"></i>
+                Lord-Nickelbottoms</a>
 
-            <a href="mailto:nizaam.h@icloud.com" class="google-mail"><i class="fa-regular fa-envelope"></i> Send me an Email</a>
+            <a href="mailto:nizaam.h@icloud.com" class="google-mail"><i class="fa-regular fa-envelope"></i> Send me an
+                Email</a>
         </div>
 
         <div class="reservations">
@@ -262,6 +272,7 @@
 
     <script src="scripts/about-me.js"></script>
     <script src="scripts/chatbot.js"></script>
+    <script src="scripts/nav-bar.js"></script>
 </body>
 
 </html>
