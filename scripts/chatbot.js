@@ -106,7 +106,7 @@ async function newChatbotMessage(chatbotResponse) {
     userMessageContent.appendChild(chatbotText);
     
 
-    if (chatbotResponse === "😉") {
+    if (chatbotResponse === "Royal members pay a higher fee.") {
         delay(1000)
         routeToContact()
     } else {
@@ -117,8 +117,7 @@ async function newChatbotMessage(chatbotResponse) {
 }
 
 function routeToContact() {
-    const contactElement = document.getElementById("socials-section")
-    contactElement.scrollIntoView( { behavior: "smooth", block: "start", inline: "center" } )
+    window.location.href = "contact.html"
 }
 
 function restartChat() {
