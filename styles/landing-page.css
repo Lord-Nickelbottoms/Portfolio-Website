@@ -1,88 +1,92 @@
 @import url("/styles/fonts.css");
 
-main {
-    margin: 40px;
+main
+{
+    margin: 20px;
 }
 
-h1 {
-    font-size: 48pt;
+h1
+{
+    font-size: 32pt;
 }
 
-h6 {
-    font-size: 20pt;
+h6
+{
+    font-size: 16pt;
 }
 
-/* ************************* Classes ********************************** */
-
-.hero-section {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    width: 100%;
-    height: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.profile-image-article {
+.profile-image-article
+{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.profile-image {
+.profile-image
+{
     max-width: 100%;
-    max-height: 80vh;
+    max-height: 50vh;
     border-radius: 50%;
     border: 10px solid var(--xanthous);
 
-    box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: -14px 24px 36px -5px rgba(0,0,0,0.75);
+    box-shadow: -14px 24px 36px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -14px 24px 36px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -14px 24px 36px -5px rgba(0, 0, 0, 0.75);
 }
 
-.introduction-text {
+.introduction-text
+{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
     justify-content: space-evenly;
 }
 
-.hello-message {
-    margin: 20px 0;
+.hello-message
+{
+    margin: 10px 0;
 }
 
-.my-name-heading {
+.my-name-heading
+{
     line-height: 100px;
 }
 
-.portfolio-text {
-    font-size: 32pt;
+.portfolio-text
+{
+    font-size: 24pt;
 }
 
-.down-arrow {
+.down-arrow
+{
     width: 10vh;
+    margin: 15px;
 }
 
-.quick-fire-intro {
-    font-size: 1.6rem;
-    margin: 80px;
+.quick-fire-intro
+{
+    font-size: 1.15rem;
+    margin: 15px 5px;
     text-align: center;
+    padding: 5px;
 }
 
-.to-projects-section {
+.to-projects-section
+{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
 
-.highlights-text {
+.highlights-text
+{
     margin-right: 15px;
 }
 
-.to-projects-btn {
+.to-projects-btn
+{
     font-size: 1.1rem;
     padding: 8px 14px;
     color: var(--prussian-blue);
@@ -91,9 +95,105 @@ h6 {
     border-radius: 10px;
 }
 
-.to-projects-btn:hover {
+.to-projects-btn:hover
+{
     background-color: transparent;
     color: var(--vanilla);
     border: 1px solid var(--vanilla);
     font-weight: 700;
+}
+
+/* ******************* Media Queries ************************* */
+
+@media screen and (min-width: 551px)
+{
+    main
+    {
+        margin: 40px;
+    }
+
+    h1
+    {
+        font-size: 48pt;
+    }
+
+    h6
+    {
+        font-size: 20pt;
+    }
+
+    .hero-section
+    {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .introduction-text
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        justify-content: space-evenly;
+    }
+
+    .hello-message
+    {
+        margin: 20px 0;
+    }
+
+    .my-name-heading
+    {
+        line-height: 100px;
+    }
+
+    .portfolio-text
+    {
+        font-size: 32pt;
+    }
+
+    .down-arrow
+    {
+        width: 10vh;
+    }
+
+    .quick-fire-intro
+    {
+        font-size: 1.6rem;
+        margin: 80px;
+        text-align: center;
+    }
+
+    .to-projects-section
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .highlights-text
+    {
+        margin-right: 15px;
+    }
+
+    .to-projects-btn
+    {
+        font-size: 1.1rem;
+        padding: 8px 14px;
+        color: var(--prussian-blue);
+        background-color: var(--vanilla);
+        border: none;
+        border-radius: 10px;
+    }
+
+    .to-projects-btn:hover
+    {
+        background-color: transparent;
+        color: var(--vanilla);
+        border: 1px solid var(--vanilla);
+        font-weight: 700;
+    }
 }
