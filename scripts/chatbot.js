@@ -7,6 +7,7 @@ const interactions = [
     { question: "What are you?", answer: "Experiment 626."},
     { question: "What is your purpose?", answer: "ʻOhana" },
     { question: "Status Error", answer: "System logs recorded." },
+    { question: "The Emperor requests your services.", answer: "Royal members pay a higher fee."},
     { question: "We've got a job to do.", answer: "😉"}
 ]
 
