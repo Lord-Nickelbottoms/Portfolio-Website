@@ -176,9 +176,6 @@
     margin-right: auto;
 
     display: block;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    /* align-items: baseline; */
-    /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
   }
 
