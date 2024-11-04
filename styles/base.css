@@ -496,7 +496,6 @@ a.icon
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: flex-end;
-    overflow-x: hidden;
 }
 
 .chatbot-icon
