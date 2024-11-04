@@ -199,6 +199,43 @@
 
     </main>
 
+
+    <!-- Chatbot -->
+
+    <!-- Container will display the button to display chatbot window-->
+    <div class="chatbot-main-container">
+
+        <div class="chatbot-icon" id="chatbot-icon" onclick="openChat()"></div>
+
+        <!-- Container to be hidden or displayed -->
+        <div class="chat-flex-container" id="chat-flex-container">
+
+            <div class="container">
+
+                <!-- TODO: To be removed. Content will be dynamically added via JavaScript -->
+                <div class="chatbot-container" id="chatbot-container">
+                    <!-- <div class="user-message">
+                <div class="message-content user-message-content">
+                  <p class="chatbot-text">Welcome, I am a chatbot here to help you :)</p>
+                </div>
+              </div>
+              
+              <div class="user-message">
+                <div class="message-content user-message-content">
+                  <p>Hello</p>
+                </div>
+              </div> -->
+                </div>
+
+            </div>
+
+            <div class="chatbot-action-section">
+                <button type="button" onclick="restartChat()" class="restart-button">Restart interaction</button>
+            </div>
+        </div>
+
+    </div>
+
     <footer class="footer">
 
         <div class="socials" id="socials-section">
@@ -234,6 +271,7 @@
     </footer>
 
     <script src="scripts/about-me.js"></script>
+    <script src="scripts/chatbot.js"></script>
     <script src="scripts/nav-bar.js"></script>
 </body>
 
