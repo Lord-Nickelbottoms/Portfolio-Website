@@ -11,9 +11,6 @@
   margin: 50px auto;
 
   display: block;
-  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  /* align-items: baseline; */
-  /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
 }
 
@@ -177,11 +174,7 @@
     color: white;
     max-width: 90%;
     margin-right: auto;
-
     display: block;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    /* align-items: baseline; */
-    /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
   }
 
@@ -239,11 +232,9 @@
     color: white;
     max-width: 85%;
     margin: 50px auto;
-
     display: grid;
     column-gap: 20pt;
     align-items: baseline;
-    /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); */
 
   }
 
@@ -330,7 +321,6 @@
     display: grid;
     grid-auto-rows: minmax(30vh, auto);
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(100px, 300px)); */
     align-items: center;
     justify-items: center;
   }
