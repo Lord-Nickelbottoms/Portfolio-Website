@@ -184,6 +184,9 @@
 		padding: 30px;
 		border-radius: 15px;
 		box-shadow: -2px 3px 8px 0px black;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.about-me-heading
@@ -217,9 +220,11 @@
 
 	.skills-section
 	{
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+		flex-wrap: nowrap;
 	}
 
 	.skill-showcaser
