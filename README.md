@@ -6,7 +6,7 @@ Welcome to the repo of my Portfolio Website. This project was written with vanil
 
 In the About section of the repo, you'll see a link to the Live Version of the website.
 
-![image](/images/Screenshots/Link-to-live-version.png)
+[Alternative Version](https://portfolio-website-sigma-orcin.vercel.app)
 
 If for some reason, you are unable to view the live version, you may clone this repo and run it via Visual Studio Code or any editor of your choice.
 
