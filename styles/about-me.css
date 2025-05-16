@@ -42,6 +42,24 @@
 	align-items: center;
 }
 
+.about-me-projects-list {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	font-size: 14pt;
+}
+
+.about-me-projects-list > li {
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.project-list-icon {
+	font-size: 18pt;
+	width: 18pt;
+}
+
 .download-button
 {
 	background-color: var(--orange-wheel);
