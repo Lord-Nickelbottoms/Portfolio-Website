@@ -154,8 +154,7 @@ a.icon
 
 .mainframe-logo
 {
-    /* mask: url('/images/icons/ibm-watsonx-code-assistant-for-z.svg') no-repeat center; */
-    color: #9c9c9c;
+    filter: brightness(0) saturate(100%) invert(61%) sepia(1%) saturate(0%) hue-rotate(139deg) brightness(102%) contrast(95%);
 }
 
 .html-logo
