@@ -139,6 +139,17 @@
 	background-color: #E64B22;
 }
 
+.mainframe {
+	width: 70%;
+	/* mask: url('/images/icons/ibm-watsonx-code-assistant-for-z.svg') no-repeat center; */
+	background-color: rgb(146, 146, 146);
+}
+
+.mainframe-icon {
+	width: 1.4em;
+	color: rgb(146, 146, 146);
+}
+
 .web-dev
 {
 	width: 40%;
@@ -256,7 +267,7 @@
 
 	.skill-showcaser > img
 	{
-		max-height: 400px;
+		height: 200px;
 	}
 
 	.skills-display

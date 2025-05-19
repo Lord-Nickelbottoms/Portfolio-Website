@@ -152,6 +152,12 @@ a.icon
     color: #E64B22;
 }
 
+.mainframe-logo
+{
+    /* mask: url('/images/icons/ibm-watsonx-code-assistant-for-z.svg') no-repeat center; */
+    color: #9c9c9c;
+}
+
 .html-logo
 {
     color: #f06529;
