@@ -2,8 +2,17 @@
 
 THIS FILE IS TO HOLD ALL ATTRIBUTIONS FOR IMAGES USED THROUGHOUT THE WEBSITE
 
-Arrow Icon
+Arrow icon
 <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Freepik - Flaticon</a>
 
 Swift icon
 <a href="https://www.flaticon.com/free-icons/swift" title="swift icons">Swift icons created by Fathema Khanom - Flaticon</a>
+
+Spring Boot icon
+<a target="_blank" href="https://icons8.com/icon/90519/spring-boot">Spring Boot</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+MongoDB icon
+<a target="_blank" href="https://icons8.com/icon/bosfpvRzNOG8/mongo-db">Mongo Db</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+PostgreSQL icon
+<a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
