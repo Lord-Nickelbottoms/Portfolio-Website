@@ -17,7 +17,7 @@ If for some reason, you are unable to view the alternative version, you may clon
 ### For VS Code users
 
 Download the Live Server extension and click "Go Live"
-![image](/images/Screenshots/Live-server-extension.png)
+![image](/images/screenshots/live-server-extension.png)
 
 ## Authors
 [@Lord-Nickelbottoms](https://www.github.com/Lord-Nickelbottoms)
