@@ -316,10 +316,10 @@
 
   .dual-large-project-gallery
   {
-    width: 50%;
+    max-width: 70%;
     height: 100%;
     display: grid;
-    grid-auto-rows: minmax(30vh, auto);
+    grid-auto-rows: minmax(20vh, auto);
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
