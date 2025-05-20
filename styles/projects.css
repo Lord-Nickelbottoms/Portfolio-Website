@@ -233,7 +233,7 @@
     max-width: 85%;
     margin: 50px auto;
     display: grid;
-    column-gap: 20pt;
+    /* column-gap: 20pt; */
     align-items: baseline;
 
   }
