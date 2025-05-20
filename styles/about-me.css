@@ -42,6 +42,24 @@
 	align-items: center;
 }
 
+.about-me-projects-list {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	font-size: 14pt;
+}
+
+.about-me-projects-list > li {
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.project-list-icon {
+	font-size: 18pt;
+	width: 18pt;
+}
+
 .download-button
 {
 	background-color: var(--orange-wheel);
@@ -119,6 +137,17 @@
 {
 	width: 60%;
 	background-color: #E64B22;
+}
+
+.mainframe {
+	width: 70%;
+	/* mask: url('/images/icons/ibm-watsonx-code-assistant-for-z.svg') no-repeat center; */
+	background-color: rgb(146, 146, 146);
+}
+
+.mainframe-icon {
+	width: 1.4em;
+	filter: brightness(0) saturate(100%) invert(61%) sepia(1%) saturate(0%) hue-rotate(139deg) brightness(102%) contrast(95%);
 }
 
 .web-dev
@@ -238,7 +267,7 @@
 
 	.skill-showcaser > img
 	{
-		max-height: 400px;
+		height: 200px;
 	}
 
 	.skills-display

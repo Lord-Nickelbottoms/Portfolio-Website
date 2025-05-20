@@ -1,6 +1,7 @@
 @import url("fonts.css");
 @import url("colors.css");
 @import url("animations.css");
+@import url("about-me.css");
 
 *
 {
@@ -152,6 +153,16 @@ a.icon
     color: #E64B22;
 }
 
+.mainframe-logo
+{
+    filter: brightness(0) saturate(100%) invert(61%) sepia(1%) saturate(0%) hue-rotate(139deg) brightness(102%) contrast(95%);
+}
+
+.mainframe-icon {
+	width: 1.4em;
+	filter: brightness(0) saturate(100%) invert(61%) sepia(1%) saturate(0%) hue-rotate(139deg) brightness(102%) contrast(95%);
+}
+
 .html-logo
 {
     color: #f06529;
@@ -180,6 +191,21 @@ a.icon
 .android-logo
 {
     color: #3DDC84;
+}
+
+.nodejs-logo
+{
+    color: #8CC84B;
+}
+
+.react-logo
+{
+    color: #61DBFB;
+}
+
+.java-logo
+{
+    color: #f89820;
 }
 
 /* ********* Footer ********** */
